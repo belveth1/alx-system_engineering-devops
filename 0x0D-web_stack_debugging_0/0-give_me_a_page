@@ -1,3 +1,4 @@
-#!/user/bin/env bash
-#start apache2 iside docker
-service apache start
+#!/usr/bin/env bash
+# get Apache to run on the container and to return a page containing
+# Hello Holberton when querying the root of it
+service apache2 start
